@@ -11,6 +11,7 @@ h1 {
     margin: 30px;
     width: 100px;
     height: 100px;
+    border: double 22px pink;
     background-color: rebeccapurple;
-    transform: rotate(0.8turn);
+    transform: translate(12px, 50%);
   }
