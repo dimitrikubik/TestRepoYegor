@@ -27,3 +27,38 @@ h1 {
   button a {
     text-decoration: none;
   }
+
+  nav {
+    border-bottom: 3px double black;
+  }
+  .agurec  ol{
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .agurec{
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: whitesmoke;
+  }
+  .agurec a{
+    text-decoration: none;
+    color: violet;
+  }
+  .agurec a::after {
+    display: inline-block;
+    color: red;
+    
+    font-size: 200%;
+    font-weight: bold;
+  }
+
+  table,td{
+    border: 2px dotted black;
+    padding: 5px;
+    border-radius: 25px;
+  }
+  table, tfoot {
+    background-color: wheat;
+    color: fffff;
+  }
