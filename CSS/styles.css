@@ -1,7 +1,22 @@
+html{
+  margin: 0;
+  font-family: 'Montez', cursive;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+}
+/* this is my header */
+#headik {
+  color:turquoise;
+  font-size: 60px;
+}
+
+
+
 h1 {
-    color: blue;
-    background-color: yellow;
+    color: #FFCBA4;
+    background-color: gray;
     border: 1px solid black;
+    font-family: 'Montez', cursive;
   }
   
   p {
@@ -39,7 +54,7 @@ h1 {
     display: inline-block;
     padding-left: 15px;
     padding-right: 15px;
-    background-color: whitesmoke;
+    background-color: green;
   }
   .agurec a{
     text-decoration: none;
