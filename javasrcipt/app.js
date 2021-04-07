@@ -1,0 +1,1 @@
+document.getElementById("demо").innerHTML = "Hey Yegor this is Awesome";
