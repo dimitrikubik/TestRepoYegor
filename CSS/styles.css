@@ -3,6 +3,7 @@ html{
   font-family: 'Montez', cursive;
   font-family: 'Montserrat', sans-serif;
   display: flex;
+  width: 320px;
 }
 /* this is my header */
 #headik {
