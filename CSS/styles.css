@@ -3,7 +3,10 @@ html{
   font-family: 'Montez', cursive;
   font-family: 'Montserrat', sans-serif;
   display: flex;
-  width: 320px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 /* this is my header */
 #headik {
@@ -11,3 +14,21 @@ html{
   font-size: 60px;
 }
 
+#headerPart {
+  width: 500px;
+  box-sizing: border-box;
+  background-color: aquamarine;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-radius: 24%;
+  box-shadow: black 1px 4px ;
+}
+
+.logoSha img {
+  width: 150px;
+}
