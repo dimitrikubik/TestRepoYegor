@@ -1,12 +1,14 @@
 html{
   margin: 0;
   font-family: 'Montez', cursive;
-  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Montserrat', sans-serif;*/
+  min-width: 320px;
+  max-width: 1440px;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  width: 100%;
+ font-size: 18px;
 }
 /* this is my header */
 #headik {
@@ -15,20 +17,43 @@ html{
 }
 
 #headerPart {
-  width: 500px;
+  width: 100%;
   box-sizing: border-box;
   background-color: aquamarine;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-wrap: nowrap;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  padding-top: 10px;
-  padding-bottom: 20px;
-  border-radius: 24%;
+  padding: 10px;
+  
   box-shadow: black 1px 4px ;
 }
 
 .logoSha img {
-  width: 150px;
+  width: 75px;
+}
+
+.Danik {
+  width: 320px;
+  display: flex;
+  justify-content: center;
+
+}
+.Navigosha {
+  font-size: 12px;
+}
+.Navigosha a{
+  text-decoration: none;
+  font-size: 2em;
+}
+.Navigosha li {
+  list-style-type: none;
+  display: inline;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.Alaska {
+  width: 100%;
+  
 }
