@@ -71,3 +71,32 @@ html{
   border-radius: 125px;
   box-shadow: inset 0 0 10px #000000;
 }
+
+/* animal card */
+.mainContainer {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content:center;
+  background-color: aquamarine;
+}
+
+.leftSide, .rightSide {
+  width: 320px;
+  height: 400px;
+  box-sizing: border-box;
+  margin: 25px;
+  background-color: burlywood;
+  border-radius: 15%;
+  border: dashed 3px darkgreen;
+  box-shadow: inset 0 0 10px #000000;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftSide img, .rightSide img {
+width: 150px;
+}
