@@ -10,3 +10,49 @@ html{
   justify-content: center;
  font-size: 18px;
 }
+
+.mainContainer {
+  position: relative;
+  min-width: 450px;
+  width: 100%;
+  height: 600px;
+  background-color:rgba(0, 100, 0, 0.26) ;
+}
+.mainContainer img {
+  width: 320px;
+  position: absolute;
+  top: 0;
+  left:30px;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../Assets/paralax.png");
+
+  /* Set a specific height */
+  min-height: 500px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  font-size: 60px;
+  color: goldenrod;
+  text-shadow: 2px 2px 6px gray;
+}
+
+.ButTon {
+  width: 220px;
+  height: 40px;
+  margin-top: 20px;
+  font-size: 20px;
+  background-color: goldenrod;
+  border-radius: 15px;
+  box-shadow: gray 2px 3px 6px;
+  border: none;
+  color: white;
+}
