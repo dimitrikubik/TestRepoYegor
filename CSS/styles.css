@@ -5,22 +5,26 @@
 #292929*/
 
 html{
-  margin: 0;
+  margin: 0 auto;
   font-family: 'Prata', serif;
 /*font-family: 'Roboto', sans-serif;*/
   min-width: 320px;
   max-width: 1440px;
   width: 100%;
- font-size: 18px;
+  font-size: 18px;
+ 
 }
-/* Main Header cont 1*/
-.cont1{
+/* Main Header cont 1 cont2 */
+.cont1, .cont2{
   margin: 0;
+  min-width: 320px;
+  max-width: 1440px;
   width: 100%;
   display: flex;
   box-sizing: border-box;
-  
+  background-color: #292929;
   flex-flow: wrap row;
+  
 }
 
 .leftSide1, .rightSide1 {
@@ -28,28 +32,69 @@ html{
   display: flex;
   box-sizing: border-box;
   flex-flow: nowrap row;
-  justify-content: space-around;
-  padding: 20px;
+}
+.rightSide1{
+  justify-content: space-around; 
+}
+.leftSide1 a{
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  text-align: left;
 }
 .one1{
   background-color: #7B8B8B;
   width: 25%;
   text-align: center;
+  padding: 15px;
 }
-.one1 a , .two2 a{
-  color: white;
-  text-decoration: none;
-}
+
 .two2{
   background-color: #97BEC3;
   width: 25%;
   text-align: center;
+  padding: 15px;
 }
 .three3{
   background-color: #F0F2F1;
   width: 25%;
+  padding: 15px;
+  text-align: center;
 }
 .four4 {
   background-color: #C7D4DA;
   width: 25%;
+  padding: 15px;
+  text-align: center;
+}
+.one1 a , .two2 a, .four4 a{
+  color: white;
+  text-decoration: none;
+}
+.three3 a{
+  color: black;
+  text-decoration: none;
+}
+.parallax {
+  /* The image used */
+  background-image: url("../Assets/Asset4.png");
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cont2{
+  justify-content: center;
+  align-items: center;
+}
+.cont2 a {
+  text-decoration: none;
+  color: white;
+  font-size: 100px;
+}
+.cont2 a:hover {
+  color:#97BEC3;
 }
