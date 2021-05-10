@@ -19,7 +19,7 @@ html{
   width: 100%;
   display: flex;
   box-sizing: border-box;
-  background-color: aquamarine;
+  
   flex-flow: wrap row;
 }
 
@@ -30,4 +30,26 @@ html{
   flex-flow: nowrap row;
   justify-content: space-around;
   padding: 20px;
+}
+.one1{
+  background-color: #7B8B8B;
+  width: 25%;
+  text-align: center;
+}
+.one1 a , .two2 a{
+  color: white;
+  text-decoration: none;
+}
+.two2{
+  background-color: #97BEC3;
+  width: 25%;
+  text-align: center;
+}
+.three3{
+  background-color: #F0F2F1;
+  width: 25%;
+}
+.four4 {
+  background-color: #C7D4DA;
+  width: 25%;
 }
