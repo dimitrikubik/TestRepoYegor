@@ -99,3 +99,44 @@ html{
 .cont2 a:hover {
   color:#97BEC3;
 }
+
+/* cont3 design*/
+.cont3 {
+  min-width: 320px;
+  max-width: 1440px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.leftSide2, .rightSide2 {
+  min-width: 320px;
+  max-width: 720px;
+  width: 100%;
+  min-height: 320px;
+  max-height: 720px;
+  height: 100%;
+  box-sizing: border-box;
+}
+.leftSide2{
+
+}
+.rightSide2{
+  background-color: blue;
+}
+.squareBox1, .squareBox2, .squareBox3, .squareBox4 {
+  max-width: 320px;
+  max-height: 320px;
+}
+.squareBox1{
+background-color: greenyellow;
+}
+.squareBox1{
+  background-color: rgb(55, 78, 20);
+}
+.squareBox1{
+  background-color: blue;
+}
+.squareBox1{
+  background-color: lemonchiffon;
+}
