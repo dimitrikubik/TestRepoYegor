@@ -102,21 +102,22 @@ html{
 
 /* cont3 design*/
 .cont3 {
-  min-width: 320px;
   max-width: 1440px;
   width: 100%;
   box-sizing: border-box;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
-.leftSide2, .rightSide2 {
-  min-width: 320px;
-  max-width: 720px;
-  width: 100%;
-  min-height: 320px;
-  max-height: 720px;
-  height: 100%;
+.leftSide2, .rightSide2 {  
+  width: 720px;
   box-sizing: border-box;
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  align-items: center;
 }
 .leftSide2{
 
@@ -124,19 +125,44 @@ html{
 .rightSide2{
   background-color: blue;
 }
-.squareBox1, .squareBox2, .squareBox3, .squareBox4 {
-  max-width: 320px;
-  max-height: 320px;
-}
 .squareBox1{
-background-color: greenyellow;
+  width: 320px;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
 }
-.squareBox1{
-  background-color: rgb(55, 78, 20);
+
+.fa {
+
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: ;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+ box-sizing: border-box;
+
 }
-.squareBox1{
-  background-color: blue;
+.fa:hover {
+  opacity: 0.7;
 }
-.squareBox1{
-  background-color: lemonchiffon;
+.instagram {
+  background: #F0F2F1;
+  color: black;
+}
+.calendar {
+  background: #292929;
+  color: white;
+}
+.facebook {
+  background: #97BEC3;
+  color: white;
+}
+.youtube {
+  background: #C7D4DA;
+  color: white;
 }
