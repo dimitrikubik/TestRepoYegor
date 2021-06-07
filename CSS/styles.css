@@ -232,3 +232,32 @@ background-color: #7B8B8B;
 .googleMap {
 background-color: #292929;
 }
+
+ .footerMain{
+   position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: #292929;
+}
+
+.cont5 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding: 20px;
+}
+.cont5 a {
+  margin: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.logoFooter {
+  pad: 30px;
+}
